@@ -7,7 +7,7 @@
 #include <unistd.h>
 
 using namespace  std;
-using json = nlohmann::json;
+
 static DBusConnection *connect;
 
 const char * object_path = "/com/jimi/dbus";
